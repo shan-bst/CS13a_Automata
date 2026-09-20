@@ -1,4 +1,4 @@
-# DFA_Minimization
+# DFA Minimization Report
 
 **Shanine Claire A. Besto**
 **3 BSCS-A**
@@ -66,7 +66,8 @@ The minimized DFA accepts strings that end in `011` where Σ = `{0,1}`.
 *Trace Example:* 0 leaves the DFA in state B (non-accepting). 0110 is rejected because reading 0 after reaching E sends the DFA back to B.
 
 ### Visualization
-![Example 1](#1.png)
+![Example 1](%231.png)
+
 ---
 
 ## Example 2
@@ -109,7 +110,7 @@ The minimized DFA accepts strings containing exactly one 1 (General Form: `0*10*
 `ε`, `0`, `00`, `11`, `000`, `011`, `101`, `110`, `111`, `0000` *(Strings with no 1 or multiple 1s are rejected).*
 
 ### Visualization
-![Example 2](#2.png)
+![Example 2](%232.png)
 
 ---
 
@@ -148,7 +149,7 @@ The crucial final split is S vs. C. On input 1, S transitions to S while C trans
 **Rejected Examples:** `ε`, `0`, `1`, `00`, `01`, `10`, `11`, `000`, `001`, `011`
 
 ### Visualization
-![Example 3](#3.png)
+![Example 3](%233.png)
 
 ---
 
@@ -186,7 +187,7 @@ The first refinement after the initial accepting/non-accepting partition separat
 **Rejected Examples:** `ε`, `0`, `1`, `01`, `10`, `000`, `001`, `010`, `100`, `101`
 
 ### Visualization
-![Example 4](#4.png)
+![Example 4](%234.png)
 
 ---
 
