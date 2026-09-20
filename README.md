@@ -66,7 +66,7 @@ The minimized DFA accepts strings that end in `011` where Σ = `{0,1}`.
 *Trace Example:* 0 leaves the DFA in state B (non-accepting). 0110 is rejected because reading 0 after reaching E sends the DFA back to B.
 
 ### Visualization
-![Example 1](#1)
+![Example 1](#1.png)
 
 ---
 
